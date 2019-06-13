@@ -1,0 +1,12 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ong-ar/react-practice.git",
+  "author": "ong-ar <reclusis@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
