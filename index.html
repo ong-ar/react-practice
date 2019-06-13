@@ -25,7 +25,12 @@
           return (
             <button
               type="submit"
-              onClick={() => this.setState({ liked: true })}
+              onClick={() =>
+                this.setState(prevState => {
+                  console.log(prevState);
+                  return { liked: true };
+                })
+              }
             >
               {this.state.liked ? "Liked" : "Like"}
             </button>
