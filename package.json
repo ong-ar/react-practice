@@ -5,11 +5,18 @@
   "repository": "https://github.com/ong-ar/react-practice.git",
   "author": "ong-ar <reclusis@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
     "webpack": "^4.34.0",
     "webpack-cli": "^3.3.4"
   }
