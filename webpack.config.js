@@ -4,7 +4,12 @@ module.exports = {
   name: "react-practice",
   mode: "development",
   devtool: "eval",
-  entry: {}, // 입력
+  resolve: {
+    extensions: [".js", ".jsx"]
+  },
+  entry: {
+    app: ["./client"]
+  }, // 입력
   output: {
     path: path.join(__dirname, "dist"),
     filename: "app.js"
