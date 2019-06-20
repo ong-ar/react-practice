@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   name: "react-practice",
   mode: "development",
-  devtool: "eval",
+  devtool: "eval", // hidden-source-map
   resolve: {
     extensions: [".js", ".jsx"]
   },
