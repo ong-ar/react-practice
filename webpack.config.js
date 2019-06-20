@@ -16,7 +16,8 @@ module.exports = {
         test: /\.jsx?/,
         loader: "babel-loader",
         options: {
-          presets: ["@babel/preset-env", "@babel/preset-react"]
+          presets: ["@babel/preset-env", "@babel/preset-react"], // preset == plugins
+          plugins: []
         }
         // jsx 파일은 babel-loader
       }
@@ -24,6 +25,7 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, "dist"),
-    filename: "app.js"
+    filename: "app.js",
+    publicPath: "/dist/"
   } // 출력
 };
